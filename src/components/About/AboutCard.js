@@ -9,16 +9,16 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Yasinthon Siwarat </span>
-            from <span className="purple"> Nashik, India.</span>
-            <br /> I am a Third Year student pursuing B.E.
-            in Artificial intelligence & Data Science from Pune University.
+            from <span className="purple"> Bankok, Thailand.</span>
+            <br /> You can call me Yew. I was born in 2003. I am 22 year old. I live in Bankok.
             <br />
-            Additionally, I am enthusiastic about Machine Learning.
+            I am studying Electronics Technology at King Mongkut's University of Technology North Bangkok.
+            About my family, I am the only child. I really enjoy exercising and cooking.
             <br />
             <br />
-            Some of my hobbies are 
           </p>
           <ul>
+          <p style={{ textAlign: "justify" }}><strong className="purple">Hobbies</strong></p>
             <li className="about-activity">
               <ImPointRight /> Playing Football (Team: Raoseian)
             </li>

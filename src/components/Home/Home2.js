@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/self.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillFacebook,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+
 
 function Home2() {
   return (
@@ -16,19 +16,16 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am fluent in classics like
-              <i>
-                <b className="purple"> C++ and Python. </b>
-              </i>
+              I enjoy trying new things because they are challenges in my life
               <br />
               <br />
-              I debug more than I code.
+              I believe in the law of nature, which is cause and effect.
               <br />
               <br />
-              My pronouns are <i><b>Jack of All Trades / Master of none</b></i>
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
