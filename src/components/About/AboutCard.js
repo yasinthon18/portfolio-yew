@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImPacman, ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -18,12 +18,15 @@ function AboutCard() {
             <br />
           </p>
           <ul>
-          <p style={{ textAlign: "justify" }}><strong className="purple">Hobbies</strong></p>
+          <p style={{ textAlign: "justify" }}><strong className="purple">Hobby</strong></p>
             <li className="about-activity">
-              <ImPointRight /> Playing Football (Team: Raoseian)
+              <ImPacman /> Playing Football (Team: Raoseian)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Guitar
+              <ImPacman /> Playing Guitar
+            </li>
+            <li className="about-activity">
+              <ImPacman /> I like to do gardening around my house.
             </li>
           </ul>
           
