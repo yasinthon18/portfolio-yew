@@ -7,6 +7,7 @@ function Type() {
       options={{
         strings: [
           "Here are the details about me.",
+          "And I hope to receive the appropriate details.",
 
         ],
         autoStart: true,
